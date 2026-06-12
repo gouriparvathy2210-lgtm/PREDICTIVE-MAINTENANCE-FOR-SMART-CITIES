@@ -2,7 +2,9 @@
 ## 📌 Overview
 
 The Smart Predictive Maintenance System is a Machine Learning based project developed to predict industrial machine failures before they occur.
+
 The main objective of this project is to support smart industries and smart city infrastructure by monitoring machine health conditions and providing early failure warnings.
+
 The system follows a two-stage prediction approach:
 
 **Stage 1:**
@@ -14,13 +16,17 @@ Identifies the specific failure type when a failure occurs.
 The system classifies machines into:
 
 🟢 Healthy Machine
+
 🔴 Machine Failure Detected
 
 
 For failed machines, the system identifies:
 ⚙️ Tool Wear Failure (TWF)
+
 🌡️ Heat Dissipation Failure (HDF)
+
 ⚡ Power Failure (PWF)
+
 🔧 Overstrain Failure (OSF)
 
 # 🎯 Objective
@@ -253,20 +259,31 @@ The application provides real-time machine health monitoring.
 # 🛠 Technologies Used
 
 Python
+
 Pandas
+
 NumPy
+
 Scikit-Learn
+
 Imbalanced-learn
+
 Matplotlib
+
 Seaborn
+
 Streamlit
 
 # 🚀 Future Improvements
 
 Improve prediction using advanced ML algorithms
+
 Integrate real-time IoT sensor data
+
 Deploy the application on cloud platforms
+
 Add live machine monitoring dashboard
+
 Implement deep learning based failure prediction
 
 
